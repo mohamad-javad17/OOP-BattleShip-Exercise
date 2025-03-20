@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean replay;
+
         do {
             System.out.println("Enter the grid size: ");
             int gridSize = scanner.nextInt();
